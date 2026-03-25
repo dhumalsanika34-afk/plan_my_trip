@@ -1,24 +1,56 @@
 .Main_hero_section{
-background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4)), url(./../images/bg2.jpg);
+background-image:linear-gradient(rgba(0,0,0,0), rgba(181, 55, 55, 0.4)), url(./../images/bg2.jpg);
 background-size: cover;
 background-position: center;
 height: 100vh;
 }
 .main_container{
+    margin-left: 6%;
 
 }
-.highlighed-text{
+.highlighed-main-contain{
     color: #FBA95B;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.highlighted-word{
     padding-right: 20px;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 5px;
 }
 .sub_content{
  font-size: 50px; 
  color: #e6501b;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: 500px;
+margin-bottom: 30px;
 }
 .heading{
    font-size: 50px; 
    color: white;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.main-info{
+   color: black;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   font-size: 20px;
+}
+
+.destination_container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 30px;
+   margin-top:40px;
+   background-color:aliceblue;
+   padding: 20px;
+   width: 880px;
+   border-radius: 30px;
+  
 }
