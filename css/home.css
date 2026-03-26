@@ -9,11 +9,12 @@ height: 100vh;
 
 }
 .highlighed-main-contain{
-    color: #FBA95B;
+    color: #e6501b;
     display: flex;
     align-items:center;
     flex-direction: row;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .highlighted-word{
@@ -27,7 +28,7 @@ height: 100vh;
  font-size: 50px; 
  color: #e6501b;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-weight: 500px;
+font-weight: 500;
 margin-bottom: 30px;
 }
 .heading{
@@ -40,6 +41,7 @@ margin-bottom: 30px;
    color: black;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
    font-size: 20px;
+   width: 800px;;
 }
 
 .destination_container{
@@ -49,8 +51,68 @@ margin-bottom: 30px;
    gap: 30px;
    margin-top:40px;
    background-color:aliceblue;
-   padding: 20px;
-   width: 880px;
+   padding:10px;
+   width: 950px;
    border-radius: 30px;
   
+}
+
+.destination_container_items{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.destination_input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.btn_search{
+    background-color: #e6501b;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.recommedations{
+    margin-top: 30px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.recommedations_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.recommedations_count{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destination_section{
+margin-top: 170px;
+color: black;
+font-weight: 700;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.destination_section_heading{
+    font-size: 40px;
+
 }
