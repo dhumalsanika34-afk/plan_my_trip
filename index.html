@@ -12,6 +12,7 @@
 
 <body>
     <div class="Main_hero_section">
+        <!-- navbar -->
         <div class="Main_cotainer">
             <div class="img_container">
                 <img src="./images/logo.jpeg" alt="logo" class="logo">
@@ -34,7 +35,7 @@
             </div>
         </div>
 
-
+        <!-- main container -->
         <div class="main_container">
 
             <div class="highlighed-main-contain">
@@ -46,27 +47,73 @@
             <div class="sub_content">
                 <span class="heading">plan your</span>
                 <br> perfect trip.
-        </div>
-        <div class="main-info">
-            Discover the places to visit, things to do, and local experiences to make your trip unforgettable.
-            Enjoy a seamless travel planning exprience with our user-friends interface and personlized
-            recommendations.
-        </div>
-        <div class="destination_container">
-            <div>
-                <img src="./images/location.svg" height="20px">
-            <input type="text" placeholder="Search for destinations, activities, or experiences"/>
+            </div>
+
+            <div class="main-info">
+                Discover the places to visit, things to do, and local experiences to make your trip unforgettable.
+                Enjoy a seamless travel planning exprience with our user-friends interface and personlized
+                recommendations.
+            </div>
+
+            <div class="destination_container">
+                <div class="destination_container_items">
+                    <img src="./images/location.svg" height="20px">
+                    <input class="destination_input" type="text"
+                        placeholder="Search for destinations, activities, or experiences" />
+                </div>
+
+                <div class="destination_container_items">
+                    <img src="./images/date.svg" height="20px">
+                    <input class="destination_input" type="date" />
+                </div>
+                <div class="destination_container_items">
+                    <img src="./images/people.svg" height="20px">
+                    <input class="destination_input" type="number" placeholder="Number of travelers" />
+                </div>
+                <div class="destination_container_items">
+                    <img src="./images/search.svg" height="20px">
+                    <button class="btn_search">Search</button>
+                </div>
+            </div>
+
+
+            <div class="recommedations">
+                <div class="recommedations_items">
+                    <spn class="recommedations_count">500+</spn>
+                    <span>Destinations</span>
+                </div>
+                <div class="recommedations_items">
+                    <span class="recommedations_count">50K</span>
+                    <span>Happly travelers</span>
+                </div>
+                <div class="recommedations_items">
+                    <span class="recommedations_count">10+</span>
+                    <span>Experiences</span>
+                </div>
+                <div class="recommedations_items">
+                    <span class="recommedations_count">4.1 <img src="./images/rating.svg" height="20px"></span>
+
+                    <span>Rating</span>
+
+                </div>
+
+            </div>
+
+
         </div>
 
+        <!-- Destination section -->
+        <div class=" destination_section">
+            <span class="destination_section_heading">Popular Destination</span>
+            <br>
+        <span>Explore some of the Popolurdestination for your next adventure.</span>
         <div>
-            <img src="./images/date.svg" height="20px">
-            <input type="date"/>
-        </div>
-        <div>
-            <img src="./images/people.svg" height="20px">
-            <input  type="number" placeholder="Number of travelers"/>
+
+            <div class="destination_section_items_1">  
+                <img>
+                <span>Paris,France</span>
             </div>
-            <button>Search</button>
+        </div>
         </div>
 
 
